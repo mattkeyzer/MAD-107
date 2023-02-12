@@ -1,0 +1,169 @@
+/*:
+ ## Exercise: 501
+ 
+ You may know the popular darts game called 501. Players start with a score of 501, and have to work down to zero. Here are the rules:
+ 
+ - Each player plays a “round” where they throw three darts at a board.
+ - Each throw can score between 1 and 20 points, which may be doubled or tripled depending where it hits on the board.
+ - It is also possible to score 25 for the outer bulls-eye or 50 for the inner bulls-eye.
+ 
+ House rule: At the end of three rounds, whoever is closest to zero without going below zero is the winner.
+ 
+ - callout(Exercise): Imagine you’re a game shark. You want to fool people into thinking you’re terrible at this game, but then come back and beat them in one swoop at the end. Model your game progress using variables.\
+ \
+ Start with a variable set to `501` to hold your overall score.\
+ Create another variable set to `0` to hold the score for each round.\
+ For each throw, update the value of the round score by adding points from the throw.\
+ At the end of each round, calculate your current overall score by subtracting the round score from it. Assign the new value to your overall score, and re-set the round score to zero.\
+ \
+ How slowly can you “improve” your performance without arousing suspicion? \
+ \
+ After each round, `print` some statements that your opponents might make. If you can, use the value of your current score in their statements.
+ */
+
+var overall = 501
+var score = 0
+var p1score = 0
+var p2score = 0
+var throw1 = 0
+var throw2 = 0
+var throw3 = 0
+
+//Round one
+//player1
+throw1 = 3
+throw2 = 8
+throw3 = 26
+score += throw1 + throw2 + throw3
+p1score = overall - score
+if score < 65 {
+    print(String(score) + " is your score")
+    print("Wow man, better luck next time!")
+    print("you have " + String(p1score) + " remaining")
+
+}
+else {
+    print(String(score) + " is your score")
+    print("Wow! Impressive!")
+    print("you have " + String(p1score) + " remaining")
+}
+score = 0
+print("\n")
+
+//player2
+throw1 = 13
+throw2 = 18
+throw3 = 40
+score += throw1 + throw2 + throw3
+p2score = overall - score
+if score < 65 {
+    print(String(score) + " is your score")
+    print("you have " + String(p2score) + " remaining")
+    print("Wow man, better luck next time!")
+}
+else {
+    print(String(score) + " is your score")
+    print("Wow! Impressive!")
+    print("you have " + String(p2score) + " remaining")
+}
+score = 0
+print("\n")
+
+//Round two
+//player1
+throw1 = 11
+throw2 = 24
+throw3 = 26
+score += throw1 + throw2 + throw3
+p1score -= score
+if score < 65 {
+    print(String(score) + " is your score")
+    print("Wow man, better luck next time!")
+    print("you have " + String(p1score) + " remaining")
+
+}
+else {
+    print(String(score) + " is your score")
+    print("Wow! Impressive!")
+    print("you have " + String(p1score) + " remaining")
+}
+score = 0
+print("\n")
+
+//player2
+throw1 = 13
+throw2 = 28
+throw3 = 60
+score += throw1 + throw2 + throw3
+p2score -= score
+if score < 65 {
+    print(String(score) + " is your score")
+    print("you have " + String(p2score) + " remaining")
+    print("Wow man, better luck next time!")
+}
+else {
+    print(String(score) + " is your score")
+    print("Wow! Impressive!")
+    print("you have " + String(p2score) + " remaining")
+}
+score = 0
+print("\n")
+
+//Round three
+//player1
+throw1 = 50
+throw2 = 39
+throw3 = 19
+score += throw1 + throw2 + throw3
+p1score -= score
+if score < 65 {
+    print(String(score) + " is your score")
+    print("Wow man, better luck next time!")
+    print("you have " + String(p1score) + " remaining")
+
+}
+else {
+    print(String(score) + " is your score")
+    print("Wow! Impressive! You even got a bullseye...")
+    print("you have " + String(p1score) + " remaining")
+}
+score = 0
+print("\n")
+
+//player2
+throw1 = 3
+throw2 = 8
+throw3 = 14
+score += throw1 + throw2 + throw3
+p2score -= score
+if score < 65 {
+    print(String(score) + " is your score")
+    print("you have " + String(p2score) + " remaining")
+    print("Wow man, better luck next time!")
+}
+else {
+    print(String(score) + " is your score")
+    print("Wow! Impressive!")
+    print("you have " + String(p2score) + " remaining")
+}
+score = 0
+print("\n")
+
+if p1score < p2score{
+    print("Player one wins")
+}
+else{
+    print("Player two wins")
+}
+
+/*:
+ 
+ _Copyright © 2017 Apple Inc._
+ 
+ _Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:_
+ 
+ _The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software._
+ 
+ _THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE._
+ */
+//: [Previous](@previous)  |  page 13 of 13

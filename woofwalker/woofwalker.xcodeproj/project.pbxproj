@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C9EEC6B629DA7E5C0087343F /* woofwalkerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EEC6B529DA7E5C0087343F /* woofwalkerApp.swift */; };
-		C9EEC6B829DA7E5C0087343F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EEC6B729DA7E5C0087343F /* ContentView.swift */; };
-		C9EEC6BA29DA7E5D0087343F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9EEC6B929DA7E5D0087343F /* Assets.xcassets */; };
-		C9EEC6BD29DA7E5D0087343F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9EEC6BC29DA7E5D0087343F /* Preview Assets.xcassets */; };
+		C9D6106229E3A52300D605FF /* woofwalkerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D6106129E3A52300D605FF /* woofwalkerApp.swift */; };
+		C9D6106429E3A52300D605FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D6106329E3A52300D605FF /* ContentView.swift */; };
+		C9D6106629E3A52300D605FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9D6106529E3A52300D605FF /* Assets.xcassets */; };
+		C9D6106929E3A52300D605FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9D6106829E3A52300D605FF /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C9EEC6B229DA7E5C0087343F /* woofwalker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = woofwalker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9EEC6B529DA7E5C0087343F /* woofwalkerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = woofwalkerApp.swift; sourceTree = "<group>"; };
-		C9EEC6B729DA7E5C0087343F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		C9EEC6B929DA7E5D0087343F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C9EEC6BC29DA7E5D0087343F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C9D6105E29E3A52300D605FF /* woofwalker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = woofwalker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9D6106129E3A52300D605FF /* woofwalkerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = woofwalkerApp.swift; sourceTree = "<group>"; };
+		C9D6106329E3A52300D605FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C9D6106529E3A52300D605FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9D6106829E3A52300D605FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C9EEC6AF29DA7E5C0087343F /* Frameworks */ = {
+		C9D6105B29E3A52300D605FF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C9EEC6A929DA7E5C0087343F = {
+		C9D6105529E3A52300D605FF = {
 			isa = PBXGroup;
 			children = (
-				C9EEC6B429DA7E5C0087343F /* woofwalker */,
-				C9EEC6B329DA7E5C0087343F /* Products */,
+				C9D6106029E3A52300D605FF /* woofwalker */,
+				C9D6105F29E3A52300D605FF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C9EEC6B329DA7E5C0087343F /* Products */ = {
+		C9D6105F29E3A52300D605FF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C9EEC6B229DA7E5C0087343F /* woofwalker.app */,
+				C9D6105E29E3A52300D605FF /* woofwalker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C9EEC6B429DA7E5C0087343F /* woofwalker */ = {
+		C9D6106029E3A52300D605FF /* woofwalker */ = {
 			isa = PBXGroup;
 			children = (
-				C9EEC6B529DA7E5C0087343F /* woofwalkerApp.swift */,
-				C9EEC6B729DA7E5C0087343F /* ContentView.swift */,
-				C9EEC6B929DA7E5D0087343F /* Assets.xcassets */,
-				C9EEC6BB29DA7E5D0087343F /* Preview Content */,
+				C9D6106129E3A52300D605FF /* woofwalkerApp.swift */,
+				C9D6106329E3A52300D605FF /* ContentView.swift */,
+				C9D6106529E3A52300D605FF /* Assets.xcassets */,
+				C9D6106729E3A52300D605FF /* Preview Content */,
 			);
 			path = woofwalker;
 			sourceTree = "<group>";
 		};
-		C9EEC6BB29DA7E5D0087343F /* Preview Content */ = {
+		C9D6106729E3A52300D605FF /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				C9EEC6BC29DA7E5D0087343F /* Preview Assets.xcassets */,
+				C9D6106829E3A52300D605FF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,13 +70,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C9EEC6B129DA7E5C0087343F /* woofwalker */ = {
+		C9D6105D29E3A52300D605FF /* woofwalker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C9EEC6C029DA7E5D0087343F /* Build configuration list for PBXNativeTarget "woofwalker" */;
+			buildConfigurationList = C9D6106C29E3A52300D605FF /* Build configuration list for PBXNativeTarget "woofwalker" */;
 			buildPhases = (
-				C9EEC6AE29DA7E5C0087343F /* Sources */,
-				C9EEC6AF29DA7E5C0087343F /* Frameworks */,
-				C9EEC6B029DA7E5C0087343F /* Resources */,
+				C9D6105A29E3A52300D605FF /* Sources */,
+				C9D6105B29E3A52300D605FF /* Frameworks */,
+				C9D6105C29E3A52300D605FF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +84,25 @@
 			);
 			name = woofwalker;
 			productName = woofwalker;
-			productReference = C9EEC6B229DA7E5C0087343F /* woofwalker.app */;
+			productReference = C9D6105E29E3A52300D605FF /* woofwalker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C9EEC6AA29DA7E5C0087343F /* Project object */ = {
+		C9D6105629E3A52300D605FF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					C9EEC6B129DA7E5C0087343F = {
+					C9D6105D29E3A52300D605FF = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = C9EEC6AD29DA7E5C0087343F /* Build configuration list for PBXProject "woofwalker" */;
+			buildConfigurationList = C9D6105929E3A52300D605FF /* Build configuration list for PBXProject "woofwalker" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = C9EEC6A929DA7E5C0087343F;
-			productRefGroup = C9EEC6B329DA7E5C0087343F /* Products */;
+			mainGroup = C9D6105529E3A52300D605FF;
+			productRefGroup = C9D6105F29E3A52300D605FF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C9EEC6B129DA7E5C0087343F /* woofwalker */,
+				C9D6105D29E3A52300D605FF /* woofwalker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C9EEC6B029DA7E5C0087343F /* Resources */ = {
+		C9D6105C29E3A52300D605FF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9EEC6BD29DA7E5D0087343F /* Preview Assets.xcassets in Resources */,
-				C9EEC6BA29DA7E5D0087343F /* Assets.xcassets in Resources */,
+				C9D6106929E3A52300D605FF /* Preview Assets.xcassets in Resources */,
+				C9D6106629E3A52300D605FF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C9EEC6AE29DA7E5C0087343F /* Sources */ = {
+		C9D6105A29E3A52300D605FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9EEC6B829DA7E5C0087343F /* ContentView.swift in Sources */,
-				C9EEC6B629DA7E5C0087343F /* woofwalkerApp.swift in Sources */,
+				C9D6106429E3A52300D605FF /* ContentView.swift in Sources */,
+				C9D6106229E3A52300D605FF /* woofwalkerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C9EEC6BE29DA7E5D0087343F /* Debug */ = {
+		C9D6106A29E3A52300D605FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		C9EEC6BF29DA7E5D0087343F /* Release */ = {
+		C9D6106B29E3A52300D605FF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,7 +259,7 @@
 			};
 			name = Release;
 		};
-		C9EEC6C129DA7E5D0087343F /* Debug */ = {
+		C9D6106D29E3A52300D605FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -269,6 +269,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"woofwalker/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs Your location to function";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -287,7 +288,7 @@
 			};
 			name = Debug;
 		};
-		C9EEC6C229DA7E5D0087343F /* Release */ = {
+		C9D6106E29E3A52300D605FF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -297,6 +298,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"woofwalker/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs Your location to function";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -318,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C9EEC6AD29DA7E5C0087343F /* Build configuration list for PBXProject "woofwalker" */ = {
+		C9D6105929E3A52300D605FF /* Build configuration list for PBXProject "woofwalker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C9EEC6BE29DA7E5D0087343F /* Debug */,
-				C9EEC6BF29DA7E5D0087343F /* Release */,
+				C9D6106A29E3A52300D605FF /* Debug */,
+				C9D6106B29E3A52300D605FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C9EEC6C029DA7E5D0087343F /* Build configuration list for PBXNativeTarget "woofwalker" */ = {
+		C9D6106C29E3A52300D605FF /* Build configuration list for PBXNativeTarget "woofwalker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C9EEC6C129DA7E5D0087343F /* Debug */,
-				C9EEC6C229DA7E5D0087343F /* Release */,
+				C9D6106D29E3A52300D605FF /* Debug */,
+				C9D6106E29E3A52300D605FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C9EEC6AA29DA7E5C0087343F /* Project object */;
+	rootObject = C9D6105629E3A52300D605FF /* Project object */;
 }

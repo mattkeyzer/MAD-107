@@ -72,5 +72,17 @@ print("You have walked your animal " + animal_name + " " + String(format: "%.2f"
 
 
 
+// this wouldnt really be the best way to calculate total distance... it would need to be calculated continuously.
+
+// the method to calculate distance would need to look something like this...
+
+var active = true
+
+while active {
+    start_location = end_location
+    end_location = (x,y)
+    distance += distance
+    
+}
 
 

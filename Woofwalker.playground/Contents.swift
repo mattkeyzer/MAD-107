@@ -85,4 +85,19 @@ while active {
     
 }
 
+// Database for past workouts
+
+let date = Date()
+let formatter = DateFormatter()
+formatter.dateFormat = "MM/dd/yyyy"
+let workoutDate = formatter.string(from: date)
+var walkDict: [String: String] = [:]
+walkDict[workoutDate] = String(format: "%.2f", distance)
+print(walkDict)
+
+for i in walkDict{
+    print(i)
+}
+
+
 
